@@ -1,0 +1,4 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = '果冻酱的blog'
+theme = 'ananke'
