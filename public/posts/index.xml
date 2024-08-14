@@ -6,8 +6,15 @@
     <description>Recent content in Posts on 果冻酱的blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Aug 2024 15:53:10 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 14 Aug 2024 16:27:32 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HL7 1</title>
+      <link>http://localhost:1313/posts/hl7-1/</link>
+      <pubDate>Wed, 14 Aug 2024 16:27:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/hl7-1/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Readme</title>
       <link>http://localhost:1313/posts/readme/</link>

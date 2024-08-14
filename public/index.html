@@ -46,8 +46,8 @@
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="果冻酱的blog">
-  <meta itemprop="datePublished" content="2024-08-14T15:53:10+08:00">
-  <meta itemprop="dateModified" content="2024-08-14T15:53:10+08:00">
+  <meta itemprop="datePublished" content="2024-08-14T16:27:32+08:00">
+  <meta itemprop="dateModified" content="2024-08-14T16:27:32+08:00">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="果冻酱的blog">
 
@@ -70,6 +70,16 @@
     <div class="flex-l items-center">
       
 
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/posts/" title="Posts page">
+              Posts
+            </a>
+          </li>
+          
+        </ul>
       
       
 <div class="ananke-socials">
@@ -118,6 +128,37 @@
 
         <section class="w-100 mw8">
           
+          
+            <div class="relative w-100 mb4">
+              
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/hl7-1/" class="color-inherit dim link">
+            HL7 系列: 1
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          什么是HL7 HL7 全称卫生信息交换标准（Health Level 7），标准化的卫生信息传输协议，是医疗领域不同应用之间电子传输的协议。HL7 汇集了不同厂商用来设计应用软件之间接口的标准格式，它将允许各个医疗机构在异构系统之间，进行数据交互。
+HL7 的主要应用领域是 HIS/RIS，主要是规范 HIS/RIS 系统及其设备之间的通信，它涉及到病房和病人信息管理、化验系统、药房系统、放射系统、收费系统等各个方面。
+HL7的宗旨是开发和研制医院数据信息传输协议和标准，规范临床医学和管理信息格式，降低医院信息系统互连的成本，提高医院信息系统之间数据信息共享的程度。
+通俗点讲，只要大家去医院办理事情，背后的数据协议肯定是 HL7，数据的格式也是 HL7，也是因为医院的信息系统业务复杂，间接导致了 HL7 的数据格式也比较复杂。
+作为信息交换标准，HL7 自1987年发布V1.0版后相继发布了v2.0 v2.1 v2.2 v2.3 v2.3.1 ，2000年发布了v2.4版，现已用 XML 开发了v3.0版，但 HL7 v2.4 版本仍是 ANSI 正式发布的版本。所以我们学习 HL7 2.4 版本即可
+HL7 消息结构 HL7 标准包含256个事件、116个消息类型、139个段、55种数据类型、408个数据字典，涉及79种编码系统。
+四个最基本的术语概念 触发事件（trigger events）：当现实世界中发生的事件产生了系统间数据流动的需求，则称其为触发事件。也可以理解为一个数据请求 消息（message）：它是系统间传输数据的最小单位，由一组有规定次序的段组成。每个消息都是用一个消息类型来表示其用途 段（segment）：它是数据字段的一个逻辑组合。每个段都用一个唯一的三字符代码所标志，这个代码称作段标志。 字段（field）：它是一个字符串，是段的最小组成单位。 消息（Message）是数据在系统之间交换的基本单元，每条消息都有各自的消息类型，消息类型用于定义消息目的，包含了触发事件。
+一个消息由多个段（Segment）组成，每一个段都有相应的名称，用于界定其内容或者功能。 一个段又由多个字段（Field）组成。一个消息中的第一个段总是消息头段（Message head segment），它指明了发送和接收的程序名、消息类型、以及一个唯一的消息ID号码等，接下去段的构成由消息的类型决定。 一个字段又有可能由多个组件（Component）组成。有些消息可进一步由事件码（event code）细分。 消息示例 MSH|^~\&amp;|Mindray|Gateway|||||ORU^R01|2|P|2.3.1| &lt;CR&gt; PID|||M1015_00010||John^||20091112|M|||^^^^||| &lt;CR&gt; PV1||I|^^ICU&amp;Bed5&amp;3232241659&amp;0&amp;0|||||||||||||||A||||||||||||||||||||||||||20091201111211 &lt;CR&gt; OBR||||Mindray Monitor|||20091203121631| &lt;CR&gt; OBX||NM|52^Height||169.0||||||F &lt;CR&gt; OBX||NM|51^Weight||59.0||||||F &lt;CR&gt; OBX||CE|2302^BloodType||1^A||||||F &lt;CR&gt; OBX||CE|2303^PACE_Switch||0^Off||||||F &lt;CR&gt; OBX||NM|101^HR|2101|60||||||F &lt;CR&gt; OBX||NM|151^RR|2102|20||||||F &lt;CR&gt; OBX||NM|200^T1|2104|37.
+        </div>
+          <a href="/posts/hl7-1/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+            </div>
           
             <div class="relative w-100 mb4">
               
