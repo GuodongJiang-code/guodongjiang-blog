@@ -2,7 +2,7 @@
 
 ## 原文
 
-> For anyone selling on Amazon, prominent placement in the “buy box” that appears on screen when something is searched for is a big boost. According to One Click Retail, a consultancy, products in the buy box account for 86% of sales on the website and 93% on the mobile app. By reverse‑engineering the algorithm that runs the box, the consultants found that if a seller pays Amazon to handle warehousing and logistics on its behalf, which probably speeds up shipping, it is more likely to win a spot in the box. So on the occasions when Amazon’s retail offering loses the buy box, it still gets a piece of the action.
+> For anyone selling on Amazon, <mark style="color:$danger;">prominent placement</mark> in the “buy box” that appears on screen when something is searched for is a big boost. According to One Click Retail, a consultancy, products in the buy box <mark style="color:$danger;">account for</mark> 86% of sales on the website and 93% on the mobile app. By <mark style="color:$danger;">reverse‑engineering</mark> the algorithm that runs the box, the consultants found that if a seller pays Amazon to handle warehousing and logistics on its behalf, which probably <mark style="color:$danger;">speeds up shipping</mark>, it is more likely to <mark style="color:$danger;">win a spot</mark> in the box. So on the occasions when Amazon’s retail offering loses the buy box, it still <mark style="color:$danger;">gets a piece of the action</mark>.
 
 {% hint style="info" %}
 对于所有在亚马逊平台上销售商品的卖家而言，在用户搜索商品时，商品能出现在页面“购买框”（Buy Box）的显眼位置，会带来巨大的销量提升。咨询公司“一键零售（One Click Retail）”的数据显示：占据购买框的商品，贡献了亚马逊网站86%的销售额，以及亚马逊移动端App 93%的销售额。
